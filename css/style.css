@@ -1,0 +1,31 @@
+/* div.page {
+    padding-top: 4rem;
+} */
+
+div.avatar {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+a:link, a:visited, a:active {
+    color: black;
+}
+
+div.block {
+    padding-bottom: 1rem;
+}
+
+div.news{
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+div.sidebar{
+    padding-top: 6rem;
+}
+
+div.page {
+    padding-top: 6rem;
+    height: 100rem;
+}
