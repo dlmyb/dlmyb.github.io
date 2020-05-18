@@ -4,12 +4,15 @@
 
 div.avatar {
     text-align: center;
-    padding-bottom: 1rem;
 }
 
 a:link, a:visited {
     color: black;
     text-decoration-line: underline;
+}
+
+a.nav-link:link, a.nav-link:visited{
+    text-decoration-line: none;
 }
 
 div.block {
@@ -33,4 +36,12 @@ div.sidebar{
 div.page {
     padding-top: 3rem;
     height: 100rem;
+}
+
+ul.nav {
+    padding-top: 2rem;
+}
+
+div.contact {
+    padding-top: 2rem;
 }
