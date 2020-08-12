@@ -43,5 +43,13 @@ ul.nav {
 }
 
 div.contact {
-    padding-top: 2rem;
+    padding-top: 1rem;
+}
+
+.language {
+    text-align: center;
+}
+
+.chinese {
+    font-family: 'Ma Shan Zheng', cursive;
 }
