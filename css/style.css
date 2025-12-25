@@ -56,3 +56,10 @@ div.contact {
 .chinese {
     font-family: 'Ma Shan Zheng', cursive;
 }
+
+@font-face {
+  font-family: 'Ma Shan Zheng';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/css/NaPecZTRCLxvwo41b4gvzkXaRMQ.ttf) format('truetype');
+}
