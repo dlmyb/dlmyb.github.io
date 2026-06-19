@@ -70,8 +70,8 @@ icon = "feather"
 markdown = '''
 ##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> [University of Illinois at Chicago](https://www.uic.edu) - United States
 
-- Doctor of Philosophy, Electrical and Computer Engineering, 09/2020 - *12/2025*
-- Master of Science, Statistics (concurrent with Ph.D), 09/2023 - *05/2025*
+- Doctor of Philosophy, Electrical and Computer Engineering, 09/2020 - 12/2025
+- Master of Science, Statistics (concurrent with Ph.D), 09/2023 - 05/2025
 - Master of Science, Electrical and Computer Engineering, 09/2018 - 05/2020
 
 ##### <img src="/static/Xidian.png" alt="Xidian University" width="24" height="auto"> [Xidian University](https://en.wikipedia.org/wiki/Xidian_University) - China
@@ -81,8 +81,8 @@ markdown = '''
 markdown_zh = '''
 ##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> [University of Illinois at Chicago](https://www.uic.edu) - 美国
 
-- Doctor of Philosophy (博士), Electrical and Computer Engineering, 09/2020 - *12/2025*
-- Master of Science (辅修硕士), Statistics, 09/2023 - *05/2025*
+- Doctor of Philosophy (博士), Electrical and Computer Engineering, 09/2020 - 12/2025
+- Master of Science (辅修硕士), Statistics, 09/2023 - 05/2025
 - Master of Science (硕士), Electrical and Computer Engineering, 09/2018 - 05/2020
 
 ##### <img src="/static/Xidian.png" alt="西安电子科技大学" width="24" height="auto"> [西安电子科技大学](https://www.xidian.edu.cn) - 中国
@@ -101,7 +101,7 @@ markdown = '''
     - Coded Caching is a broadcast network which leverages locally cached contents at users side by transmitting coded messages, so it can boost the network performance comparing to uncoded scenario.
     - Researching and exploring the information limits on coded caching, including numerical analysis by formulating a large linear programming model on Gurobi.
     - Co-advised students with advisor for their summer research internship at our lab.
-- Graduate Research Assistant, advised by Prof. [Shuo Han](https://hanshuo.people.uic.edu/), 01/2020 - 05/2020
+- Graduate Research Assistant, advised by Prof. [Shuo Han](https://han-uic.github.io/), 01/2020 - 05/2020
     - Distributed optimization and consensus optimization, [[slides]](https://github.com/dlmyb/OptCat/blob/master/doc/presentation.pdf).
     - Researched and implemented algorithms on high performance clusters platform at UIC, including ADMM, variation reduction, asynchronous gradient method.
 '''
@@ -109,11 +109,11 @@ markdown_zh = '''
 ##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> University of Illinois at Chicago - 美国
 
 - 研究助理（博士全奖）, 由 [Daniela Tuninetti](https://nicest.lab.uic.edu/profiles/tuninetti-daniela/) 教授指导, 05/2020 - 12/2025
-    - Coded Caching is a broadcast network which leverages locally cached contents at users side by transmitting coded messages, so it can boost the network performance comparing to uncoded scenario.
-    - Researching and exploring the information limits on coded caching, including numerical analysis by formulating a large linear programming model on Gurobi.
-    - Co-advised students with advisor for their summer research internship at our lab.
-- 研究助理（见习）, 由 [Shuo Han](https://hanshuo.people.uic.edu/) 教授指导, 01/2020 - 05/2020
-    - Distributed optimization and consensus optimization, [[链接]](https://github.com/dlmyb/OptCat/blob/master/doc/presentation.pdf).
+    - Coded Caching 是一种广播网络模型，它利用用户侧本地缓存的内容，通过传输编码消息来提升相较于非编码方案的网络性能。
+    - 研究 Coded Caching 的信息论极限，包括在 Gurobi 中构建大规模线性规划模型进行数值分析。
+    - 与导师共同指导学生完成实验室暑期科研实习项目。
+- 研究助理（见习）, 由 [Shuo Han](https://han-uic.github.io/) 教授指导, 01/2020 - 05/2020
+    - 分布式优化与一致性优化，[[链接]](https://github.com/dlmyb/OptCat/blob/master/doc/presentation.pdf)。
     - 在 UIC 高性能集群上运行对应的优化算法，包括 ADMM, variation reduction, asynchronous gradient method。
 '''
 
@@ -139,6 +139,25 @@ markdown = '''
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users, with and without Demand Privacy against Colluding Users](https://arxiv.org/pdf/2401.06894.pdf)*, arXiv preprint arXiv:2401.06894, 2024.
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Decentralized Linear Coding Placement](https://arxiv.org/pdf/2604.27073)*, arXiv preprint arXiv:2604.27073, 2026.
 '''
+markdown_zh = '''
+1. 期刊论文
+
+    - **Yinbin Ma**, Daniela Tuninetti, *[A General Coded Caching Scheme for Scalar Linear Function Retrieval](https://ieeexplore.ieee.org/document/9797787)*, IEEE Journal on Selected Areas in Information Theory. IEEE, 2022. [[ISIT]](https://ieeexplore.ieee.org/document/9518262), [[arXiv]](https://arxiv.org/pdf/2102.02122.pdf), [[YouTube]](https://www.youtube.com/watch?v=4DHRvNgB11w)
+
+2. 会议论文
+
+    - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users](https://ieeexplore.ieee.org/abstract/document/9834866)*, 2022 IEEE International Symposium on Information Theory (ISIT). IEEE, 2022. [[arXiv]](https://arxiv.org/pdf/2202.01299.pdf)
+    - **Yinbin Ma**, Daniela Tuninetti, *[Demand Privacy in Hotplug Caching Systems](https://ieeexplore.ieee.org/document/10206467)*, 2023 IEEE International Symposium on Information Theory (ISIT). IEEE, 2023. [[arXiv]](https://arxiv.org/pdf/2305.06518.pdf)
+    - **Yinbin Ma**, Daniela Tuninetti, *Coded Caching with Linear Coded Placement: Exact Tradeoff for the Three User Case*, 2023 59th Annual Allerton Conference on Communication, Control, and Computing (Allerton). IEEE, 2023.
+    - **Yinbin Ma**, Daniela Tuninetti, *On Demand-Private Hotplug Caching Systems*, 2024 IEEE International Symposium on Information Theory (ISIT). IEEE, 2024.
+    - **Yinbin Ma**, Daniela Tuninetti, *An Achievable Scheme for the K-user Linear Computation Broadcast Channel*, 2025 IEEE International Symposium on Information Theory (ISIT). IEEE, 2025. [[arXiv]](https://arxiv.org/pdf/2501.12322.pdf), [[slides]](/static/pdf/2025ISITslides.pdf)
+    - Niccolò Brembilla, **Yinbin Ma**, Pietro Belotti, Federico Malucelli, Daniela Tuninetti, *Computer-aided Characterization of Fundamental Limits of Coded Caching with Linear Coding*, 2026 IEEE International Conference on Communications (ICC). IEEE, 2026. [[arXiv]](https://arxiv.org/pdf/2511.19639)
+
+3. 预印本
+
+    - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users, with and without Demand Privacy against Colluding Users](https://arxiv.org/pdf/2401.06894.pdf)*, arXiv preprint arXiv:2401.06894, 2024.
+    - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Decentralized Linear Coding Placement](https://arxiv.org/pdf/2604.27073)*, arXiv preprint arXiv:2604.27073, 2026.
+'''
 
 [[sections]]
 title = "Professional Activities"
@@ -156,6 +175,19 @@ markdown = '''
     - NSF Awards 1910309 and 2312229
     - NSF ACCESS EXPLORE Allocation, ELE240014
     - Student travel grant, 2022 and 2024 IEEE International Symposium on Information Theory
+'''
+markdown_zh = '''
+- 担任以下期刊和会议的审稿人
+    - IEEE International Symposium on Information Theory (ISIT)
+    - IEEE Communications Letters
+    - IEEE Transactions on Communications
+    - IEEE Information Theory Workshop
+    - IEEE Transactions on Wireless Communication
+    - IEEE Transactions on Information Theory
+- 获得以下科研经费和资助支持
+    - NSF Awards 1910309 and 2312229
+    - NSF ACCESS EXPLORE Allocation, ELE240014
+    - 2022 和 2024 IEEE International Symposium on Information Theory 学生旅费资助
 '''
 
 [[sections]]

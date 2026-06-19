@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import re
 import shutil
 from pathlib import Path
 
@@ -28,7 +29,8 @@ def load_toml(path: Path) -> dict:
 def render_markdown(value: str | None) -> str:
     if not value:
         return ""
-    return markdown.markdown(value, extensions=["extra", "sane_lists"])
+    html = markdown.markdown(value, extensions=["extra", "sane_lists"])
+    return re.sub(r"<a href=", '<a target="_blank" rel="noopener noreferrer" href=', html)
 
 
 def render_inline_markdown(value: str | None) -> str:
