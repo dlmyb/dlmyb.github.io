@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+{% include "partials/head.html.j2" %}
+<body>
+    {% if page.news_markdown %}
+    <div class="news container alert alert-info rounded shadow" role="alert">
+        <i data-feather="message-square"></i> {{ page.news_markdown | markdown_inline | safe }}
+        <button type="button" class="close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            {% include "partials/sidebar.html.j2" %}
+            <div class="col-md-8 col-lg-9">
+                <div class="page">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include "partials/footer.html.j2" %}
+</body>
+{% for script in site.assets.scripts %}
+<script src="{{ script.src }}"{% if script.integrity %} integrity="{{ script.integrity }}" crossorigin="anonymous"{% endif %}></script>
+{% endfor %}
+</html>

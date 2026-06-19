@@ -15,14 +15,14 @@ function getCookie(cname) {
 }
 
 $("button.close").on('click', function(event){
-    var flag = document.getElementsByTagName('date')[0].textContent;
-    document.cookie = "visited="+flag ;
+    var flag = window.location.pathname + ":" + document.getElementsByTagName('date')[0].textContent;
+    document.cookie = "visited=" + flag + ";path=/";
     $("div.news").css("visibility", "hidden");
 });
 
 $("div.news").ready(function(){
     var visited = getCookie("visited");
-    var flag = document.getElementsByTagName('date')[0].textContent;
+    var flag = window.location.pathname + ":" + document.getElementsByTagName('date')[0].textContent;
     if (visited != flag){
         $("div.news").css("visibility", "visible");
     }

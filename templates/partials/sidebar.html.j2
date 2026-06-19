@@ -1,0 +1,15 @@
+<div class="col-md-4 col-lg-3 order-md-2">
+    <div class="sidebar sticky-top">
+        <div class="avatar">
+            <img src="{{ site.assets.avatar }}" alt="{{ page.name }}" class="rounded-circle" width="80%" height="auto" style="padding-bottom: 1rem;">
+            <h4{% if page.name_class %} class="{{ page.name_class }}"{% endif %}>{{ page.name }}</h4>
+        </div>
+        <div class="contact">
+            <p><i data-feather="mail"></i> {{ page.email_label }}</p>
+{% for item in page.contact %}
+            <p><i data-feather="{{ item.icon }}"></i> <a href="{{ item.url }}" target="_blank">{{ item.label }}</a></p>
+{% endfor %}
+        </div>
+        <p class="language{% if page.language_class %} {{ page.language_class }}{% endif %}"><small><a href="{{ page.language_url }}">{{ page.language_label }}</a></small></p>
+    </div>
+</div>

@@ -1,0 +1,194 @@
+title = "Welcome to Yinbin Ma's Webpage"
+description = "Yinbin Ma's personal academic website."
+description_zh = "马寅彬的个人学术主页。"
+name = "Yinbin Ma"
+name_zh = "马寅彬"
+name_class_zh = "chinese"
+email_label = "hello AT [my website domain]"
+email_label_zh = "hello AT [我的网站域名]"
+language_label = "中文"
+language_label_zh = "English"
+language_url = "/zh_cn.html"
+language_url_zh = "/index.html"
+language_class = "chinese"
+language_class_zh = ""
+last_updated = "05/31/2026"
+last_updated_zh = "12/25/2025"
+news_markdown = "I made a chatbot so you can query my recent status from it."
+news_markdown_zh = "我制作了一个聊天机器人，你可以通过它了解我的最近更新。"
+
+[[contact]]
+icon = "linkedin"
+label = "yinbinma"
+url = "https://www.linkedin.com/in/yinbinma/"
+
+[[contact]]
+icon = "github"
+label = "dlmyb"
+url = "https://github.com/dlmyb"
+
+[[contact]]
+icon = "database"
+label = "Google Scholar"
+url = "https://scholar.google.com/citations?user=XCkCH_8AAAAJ&hl=en"
+url_zh = "https://scholar.google.com/citations?user=pB68u-sAAAAJ&hl=en&oi=ao"
+
+[[contact]]
+icon = "key"
+label = "GPG Public Key"
+url = "https://keys.openpgp.org/search?q=hello@yinbin.ma"
+
+[[contact]]
+icon = "message-circle"
+label = "Chat with me!"
+url = "https://chat.yinbin.ma"
+hidden_zh = true
+
+[[sections]]
+title = "Short Bio"
+title_zh = "简介"
+icon = "user"
+markdown = '''
+Yinbin Ma is a Ph.D. candidate in the Department of Electrical and Computer Engineering (ECE) at the University of Illinois at Chicago (UIC). He is advised by Professor [Daniela Tuninetti](https://nicest.lab.uic.edu/profiles/tuninetti-daniela/). Prior to starting his Ph.D. program, Yinbin earned an M.S. in ECE at UIC and a B.S. in Computer Science at Xidian University. Yinbin's research interests lie in the field of information theory, particularly shared-link caching network models. His Ph.D. dissertation is *Optimizing Placement and Delivery for Coded Caching*.
+
+**For PhD Thesis**: I have submitted my PhD thesis to UIC library. However, I can't make it public soon as some sections are still under review for publication. If you are interested in my research, feel free to contact me and I may send you the draft.
+
+UIC has **suspended** my UIC email service (yma52 AT uic.edu). Please contact me through the listed email address. Thanks.
+'''
+markdown_zh = '''
+我正在 ECE UIC 攻读博士学位，由 [Daniela Tuninetti](https://nicest.lab.uic.edu/profiles/tuninetti-daniela/) 教授指导。之前，我曾就读于西安电子科技大学。我拥有 ECE UIC 的硕士学位以及西安电子科技大学的计算机科学与技术学士学位。我目前研究领域为信息论，研究兴趣包括 Shared-link caching network，我的博士研究名称为 *Optimizing Placement and Delivery for Coded Caching*。
+
+**关于博士论文**：我已经将博士论文提交给 UIC 图书馆。不过，由于其中一些章节仍在投稿审稿中，我暂时不能很快公开全文。如果你对我的研究感兴趣，欢迎联系我，我可以把草稿发给你。
+
+UIC 已经**停用**了我的 UIC 邮箱服务（yma52 AT uic.edu）。请通过本页列出的邮箱地址联系我，谢谢。
+'''
+
+[[sections]]
+title = "Education"
+title_zh = "教育"
+icon = "feather"
+markdown = '''
+##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> [University of Illinois at Chicago](https://www.uic.edu) - United States
+
+- Doctor of Philosophy, Electrical and Computer Engineering, 09/2020 - *12/2025*
+- Master of Science, Statistics (concurrent with Ph.D), 09/2023 - *05/2025*
+- Master of Science, Electrical and Computer Engineering, 09/2018 - 05/2020
+
+##### <img src="/static/Xidian.png" alt="Xidian University" width="24" height="auto"> [Xidian University](https://en.wikipedia.org/wiki/Xidian_University) - China
+
+- Bachelor of Science, Computer Science, 09/2015 - 06/2019
+'''
+markdown_zh = '''
+##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> [University of Illinois at Chicago](https://www.uic.edu) - 美国
+
+- Doctor of Philosophy (博士), Electrical and Computer Engineering, 09/2020 - *12/2025*
+- Master of Science (辅修硕士), Statistics, 09/2023 - *05/2025*
+- Master of Science (硕士), Electrical and Computer Engineering, 09/2018 - 05/2020
+
+##### <img src="/static/Xidian.png" alt="西安电子科技大学" width="24" height="auto"> [西安电子科技大学](https://www.xidian.edu.cn) - 中国
+
+- 学士, 计算机科学与技术, 09/2015 - 06/2019
+'''
+
+[[sections]]
+title = "Experience"
+title_zh = "就业经历"
+icon = "pen-tool"
+markdown = '''
+##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> University of Illinois at Chicago - United States
+
+- Graduate Research Assistant, advised by Prof. [Daniela Tuninetti](https://nicest.lab.uic.edu/profiles/tuninetti-daniela/), 05/2020 - 12/2025
+    - Coded Caching is a broadcast network which leverages locally cached contents at users side by transmitting coded messages, so it can boost the network performance comparing to uncoded scenario.
+    - Researching and exploring the information limits on coded caching, including numerical analysis by formulating a large linear programming model on Gurobi.
+    - Co-advised students with advisor for their summer research internship at our lab.
+- Graduate Research Assistant, advised by Prof. [Shuo Han](https://hanshuo.people.uic.edu/), 01/2020 - 05/2020
+    - Distributed optimization and consensus optimization, [[slides]](https://github.com/dlmyb/OptCat/blob/master/doc/presentation.pdf).
+    - Researched and implemented algorithms on high performance clusters platform at UIC, including ADMM, variation reduction, asynchronous gradient method.
+'''
+markdown_zh = '''
+##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> University of Illinois at Chicago - 美国
+
+- 研究助理（博士全奖）, 由 [Daniela Tuninetti](https://nicest.lab.uic.edu/profiles/tuninetti-daniela/) 教授指导, 05/2020 - 12/2025
+    - Coded Caching is a broadcast network which leverages locally cached contents at users side by transmitting coded messages, so it can boost the network performance comparing to uncoded scenario.
+    - Researching and exploring the information limits on coded caching, including numerical analysis by formulating a large linear programming model on Gurobi.
+    - Co-advised students with advisor for their summer research internship at our lab.
+- 研究助理（见习）, 由 [Shuo Han](https://hanshuo.people.uic.edu/) 教授指导, 01/2020 - 05/2020
+    - Distributed optimization and consensus optimization, [[链接]](https://github.com/dlmyb/OptCat/blob/master/doc/presentation.pdf).
+    - 在 UIC 高性能集群上运行对应的优化算法，包括 ADMM, variation reduction, asynchronous gradient method。
+'''
+
+[[sections]]
+title = "Publication"
+icon = "book-open"
+markdown = '''
+1. Journals
+
+    - **Yinbin Ma**, Daniela Tuninetti, *[A General Coded Caching Scheme for Scalar Linear Function Retrieval](https://ieeexplore.ieee.org/document/9797787)*, IEEE Journal on Selected Areas in Information Theory. IEEE, 2022. [[ISIT]](https://ieeexplore.ieee.org/document/9518262), [[arXiv]](https://arxiv.org/pdf/2102.02122.pdf), [[YouTube]](https://www.youtube.com/watch?v=4DHRvNgB11w)
+
+2. Conferences
+
+    - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users](https://ieeexplore.ieee.org/abstract/document/9834866)*, 2022 IEEE International Symposium on Information Theory (ISIT). IEEE, 2022. [[arXiv]](https://arxiv.org/pdf/2202.01299.pdf)
+    - **Yinbin Ma**, Daniela Tuninetti, *[Demand Privacy in Hotplug Caching Systems](https://ieeexplore.ieee.org/document/10206467)*, 2023 IEEE International Symposium on Information Theory (ISIT). IEEE, 2023. [[arXiv]](https://arxiv.org/pdf/2305.06518.pdf)
+    - **Yinbin Ma**, Daniela Tuninetti, *Coded Caching with Linear Coded Placement: Exact Tradeoff for the Three User Case*, 2023 59th Annual Allerton Conference on Communication, Control, and Computing (Allerton). IEEE, 2023.
+    - **Yinbin Ma**, Daniela Tuninetti, *On Demand-Private Hotplug Caching Systems*, 2024 IEEE International Symposium on Information Theory (ISIT). IEEE, 2024.
+    - **Yinbin Ma**, Daniela Tuninetti, *An Achievable Scheme for the K-user Linear Computation Broadcast Channel*, 2025 IEEE International Symposium on Information Theory (ISIT). IEEE, 2025. [[arXiv]](https://arxiv.org/pdf/2501.12322.pdf), [[slides]](/static/pdf/2025ISITslides.pdf)
+    - Niccolò Brembilla, **Yinbin Ma**, Pietro Belotti, Federico Malucelli, Daniela Tuninetti, *Computer-aided Characterization of Fundamental Limits of Coded Caching with Linear Coding*, 2026 IEEE International Conference on Communications (ICC). IEEE, 2026. [[arXiv]](https://arxiv.org/pdf/2511.19639)
+
+3. Preprints
+
+    - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users, with and without Demand Privacy against Colluding Users](https://arxiv.org/pdf/2401.06894.pdf)*, arXiv preprint arXiv:2401.06894, 2024.
+    - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Decentralized Linear Coding Placement](https://arxiv.org/pdf/2604.27073)*, arXiv preprint arXiv:2604.27073, 2026.
+'''
+
+[[sections]]
+title = "Professional Activities"
+title_zh = "专业经历"
+icon = "sun"
+markdown = '''
+- Reviewer of the following journals and conferences
+    - IEEE International Symposium on Information Theory (ISIT)
+    - IEEE Communications Letters
+    - IEEE Transactions on Communications
+    - IEEE Information Theory Workshop
+    - IEEE Transactions on Wireless Communication
+    - IEEE Transactions on Information Theory
+- Supported by the following research funding and grant
+    - NSF Awards 1910309 and 2312229
+    - NSF ACCESS EXPLORE Allocation, ELE240014
+    - Student travel grant, 2022 and 2024 IEEE International Symposium on Information Theory
+'''
+
+[[sections]]
+title = "Awards"
+title_zh = "奖项"
+icon = "award"
+markdown = '''
+- *The Most Innovative Project Prize*, UIC Engineering Expo 2019, [[report]](https://ece.uic.edu/news-stories/electrical-and-computer-engineering-students-light-up-expo-2019/)
+'''
+markdown_zh = '''
+- *The Most Innovative Project Prize*, UIC Engineering Expo 2019, 本科毕业设计, [[链接]](https://ece.uic.edu/news-stories/electrical-and-computer-engineering-students-light-up-expo-2019/)
+'''
+
+[[sections]]
+title = "Miscellany"
+title_zh = "其它"
+icon = "wind"
+markdown = '''
+- I led the Microsoft Student Club at Xidian University during the 2018-2019 academic year.
+- I am an alumni of The High School Affiliated to Yunnan Normal University.
+'''
+markdown_zh = '''
+- 我参加了西电留学处和 UIC 的 3+2 计划, UIC 方面由 [刘德荣](http://derongliu.org/) 老师主持负责。感谢刘老师以及西电留学处老师。
+- 我是西电微软学生俱乐部 2018 - 2019 学年主席。
+- 我毕业于云南师大附中。
+'''
+
+[[pages]]
+suffix = ""
+lang = "en"
+output = "index.html"
+
+[[pages]]
+suffix = "_zh"
+lang = "zh-CN"
+output = "zh_cn.html"

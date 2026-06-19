@@ -1,1 +1,4 @@
 httpserver.go
+dist/
+.venv/
+__pycache__/

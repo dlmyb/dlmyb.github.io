@@ -1,0 +1,7 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+{% for section in page.sections %}
+{% include "partials/section.html.j2" %}
+{% endfor %}
+{% endblock %}

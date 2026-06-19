@@ -1,0 +1,14 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.assets.favicon_32 }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.assets.favicon_16 }}">
+    <link rel="mask-icon" href="{{ site.assets.mask_icon }}" color="#D50032">
+    <title>{{ page.title | default(site.title) }}</title>
+{% for stylesheet in site.assets.stylesheets %}
+    <link rel="stylesheet" href="{{ stylesheet.href }}"{% if stylesheet.integrity %} integrity="{{ stylesheet.integrity }}" crossorigin="anonymous"{% endif %}>
+{% endfor %}
+</head>
