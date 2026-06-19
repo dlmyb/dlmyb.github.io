@@ -69,24 +69,20 @@ title_zh = "教育"
 icon = "feather"
 markdown = '''
 ##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> [University of Illinois at Chicago](https://www.uic.edu) - United States
-
 - Doctor of Philosophy, Electrical and Computer Engineering, 09/2020 - 12/2025
 - Master of Science, Statistics (concurrent with Ph.D), 09/2023 - 05/2025
 - Master of Science, Electrical and Computer Engineering, 09/2018 - 05/2020
 
 ##### <img src="/static/Xidian.png" alt="Xidian University" width="24" height="auto"> [Xidian University](https://en.wikipedia.org/wiki/Xidian_University) - China
-
 - Bachelor of Science, Computer Science, 09/2015 - 06/2019
 '''
 markdown_zh = '''
 ##### <img src="/static/safari-pinned-tab.svg" alt="UIC" width="24" height="auto"> [University of Illinois at Chicago](https://www.uic.edu) - 美国
-
 - Doctor of Philosophy (博士), Electrical and Computer Engineering, 09/2020 - 12/2025
 - Master of Science (辅修硕士), Statistics, 09/2023 - 05/2025
 - Master of Science (硕士), Electrical and Computer Engineering, 09/2018 - 05/2020
 
 ##### <img src="/static/Xidian.png" alt="西安电子科技大学" width="24" height="auto"> [西安电子科技大学](https://www.xidian.edu.cn) - 中国
-
 - 学士, 计算机科学与技术, 09/2015 - 06/2019
 '''
 
@@ -121,12 +117,10 @@ markdown_zh = '''
 title = "Publication"
 icon = "book-open"
 markdown = '''
-1. Journals
-
+- Journals
     - **Yinbin Ma**, Daniela Tuninetti, *[A General Coded Caching Scheme for Scalar Linear Function Retrieval](https://ieeexplore.ieee.org/document/9797787)*, IEEE Journal on Selected Areas in Information Theory. IEEE, 2022. [[ISIT]](https://ieeexplore.ieee.org/document/9518262), [[arXiv]](https://arxiv.org/pdf/2102.02122.pdf), [[YouTube]](https://www.youtube.com/watch?v=4DHRvNgB11w)
 
-2. Conferences
-
+- Conferences
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users](https://ieeexplore.ieee.org/abstract/document/9834866)*, 2022 IEEE International Symposium on Information Theory (ISIT). IEEE, 2022. [[arXiv]](https://arxiv.org/pdf/2202.01299.pdf)
     - **Yinbin Ma**, Daniela Tuninetti, *[Demand Privacy in Hotplug Caching Systems](https://ieeexplore.ieee.org/document/10206467)*, 2023 IEEE International Symposium on Information Theory (ISIT). IEEE, 2023. [[arXiv]](https://arxiv.org/pdf/2305.06518.pdf)
     - **Yinbin Ma**, Daniela Tuninetti, *Coded Caching with Linear Coded Placement: Exact Tradeoff for the Three User Case*, 2023 59th Annual Allerton Conference on Communication, Control, and Computing (Allerton). IEEE, 2023.
@@ -134,18 +128,15 @@ markdown = '''
     - **Yinbin Ma**, Daniela Tuninetti, *An Achievable Scheme for the K-user Linear Computation Broadcast Channel*, 2025 IEEE International Symposium on Information Theory (ISIT). IEEE, 2025. [[arXiv]](https://arxiv.org/pdf/2501.12322.pdf), [[slides]](/static/pdf/2025ISITslides.pdf)
     - Niccolò Brembilla, **Yinbin Ma**, Pietro Belotti, Federico Malucelli, Daniela Tuninetti, *Computer-aided Characterization of Fundamental Limits of Coded Caching with Linear Coding*, 2026 IEEE International Conference on Communications (ICC). IEEE, 2026. [[arXiv]](https://arxiv.org/pdf/2511.19639)
 
-3. Preprints
-
+- Preprints
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users, with and without Demand Privacy against Colluding Users](https://arxiv.org/pdf/2401.06894.pdf)*, arXiv preprint arXiv:2401.06894, 2024.
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Decentralized Linear Coding Placement](https://arxiv.org/pdf/2604.27073)*, arXiv preprint arXiv:2604.27073, 2026.
 '''
 markdown_zh = '''
-1. 期刊论文
-
+- 期刊论文
     - **Yinbin Ma**, Daniela Tuninetti, *[A General Coded Caching Scheme for Scalar Linear Function Retrieval](https://ieeexplore.ieee.org/document/9797787)*, IEEE Journal on Selected Areas in Information Theory. IEEE, 2022. [[ISIT]](https://ieeexplore.ieee.org/document/9518262), [[arXiv]](https://arxiv.org/pdf/2102.02122.pdf), [[YouTube]](https://www.youtube.com/watch?v=4DHRvNgB11w)
 
-2. 会议论文
-
+- 会议论文
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users](https://ieeexplore.ieee.org/abstract/document/9834866)*, 2022 IEEE International Symposium on Information Theory (ISIT). IEEE, 2022. [[arXiv]](https://arxiv.org/pdf/2202.01299.pdf)
     - **Yinbin Ma**, Daniela Tuninetti, *[Demand Privacy in Hotplug Caching Systems](https://ieeexplore.ieee.org/document/10206467)*, 2023 IEEE International Symposium on Information Theory (ISIT). IEEE, 2023. [[arXiv]](https://arxiv.org/pdf/2305.06518.pdf)
     - **Yinbin Ma**, Daniela Tuninetti, *Coded Caching with Linear Coded Placement: Exact Tradeoff for the Three User Case*, 2023 59th Annual Allerton Conference on Communication, Control, and Computing (Allerton). IEEE, 2023.
@@ -153,8 +144,7 @@ markdown_zh = '''
     - **Yinbin Ma**, Daniela Tuninetti, *An Achievable Scheme for the K-user Linear Computation Broadcast Channel*, 2025 IEEE International Symposium on Information Theory (ISIT). IEEE, 2025. [[arXiv]](https://arxiv.org/pdf/2501.12322.pdf), [[slides]](/static/pdf/2025ISITslides.pdf)
     - Niccolò Brembilla, **Yinbin Ma**, Pietro Belotti, Federico Malucelli, Daniela Tuninetti, *Computer-aided Characterization of Fundamental Limits of Coded Caching with Linear Coding*, 2026 IEEE International Conference on Communications (ICC). IEEE, 2026. [[arXiv]](https://arxiv.org/pdf/2511.19639)
 
-3. 预印本
-
+- 预印本
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Offline Users, with and without Demand Privacy against Colluding Users](https://arxiv.org/pdf/2401.06894.pdf)*, arXiv preprint arXiv:2401.06894, 2024.
     - **Yinbin Ma**, Daniela Tuninetti, *[On Coded Caching Systems with Decentralized Linear Coding Placement](https://arxiv.org/pdf/2604.27073)*, arXiv preprint arXiv:2604.27073, 2026.
 '''

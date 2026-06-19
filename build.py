@@ -30,7 +30,8 @@ def render_markdown(value: str | None) -> str:
     if not value:
         return ""
     html = markdown.markdown(value, extensions=["extra", "sane_lists"])
-    return re.sub(r"<a href=", '<a target="_blank" rel="noopener noreferrer" href=', html)
+    html = re.sub(r"<a href=", '<a target="_blank" rel="noopener noreferrer" href=', html)
+    return re.sub(r"<li>\s*<p>(.*?)</p>\s*<ul>", r"<li>\1\n<ul>", html)
 
 
 def render_inline_markdown(value: str | None) -> str:
